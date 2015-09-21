@@ -1,0 +1,35 @@
+//Navbar w/o toggle button
+
+.navbar-collapse {
+    &.collapse{
+        display: block!important;
+    }
+}
+
+.navbar-nav>li,
+.navbar-nav {
+    float: left !important;
+}
+/*
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px !important;
+}*/
+
+.navbar-right {
+    float: right!important;
+
+    &.navbar-nav:last-child{
+        margin-right: -15px !important;
+    }
+}
+
+.nav {
+    > li {
+        > a {
+            @media(max-width:@screen-sm-min) {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}

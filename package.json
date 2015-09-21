@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Alex Popov Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b059ae/startbootstrap-creative.git"
+  },
+  "author": "Alex Popov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b059ae/startbootstrap-creative/issues"
+  },
+  "homepage": "https://github.com/b059ae/startbootstrap-creative#readme"
+}
