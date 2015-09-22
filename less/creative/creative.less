@@ -103,7 +103,7 @@ aside {
             &.active {
                 > a,
                 > a:focus {
-                    color: @theme-dark !important;
+                    color: @theme-primary !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -186,7 +186,8 @@ header {
         }
     }
     @media (min-width: @screen-sm-min) {
-        min-height: 100%;
+/*        min-height: 100%;*/
+        min-height: 600px;
         .header-content {
             position: absolute;
             top: 50%;
@@ -224,6 +225,9 @@ header {
     p {
         margin-bottom: 0;
     }
+    .fa{
+        color: @theme-primary;
+    }
 }
 
 .portfolio-box {
@@ -254,7 +258,7 @@ header {
                 padding: 0 15px;
             }
             .project-category {
-                text-transform: uppercase;
+                /*text-transform: uppercase;*/
                 font-weight: 600;
                 font-size: 14px;
             }

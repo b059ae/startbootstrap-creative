@@ -1,9 +1,16 @@
 @letter-spacing-small: 1px;
 @letter-spacing-large: 3px;
+@avatar-width: 70px;
+@avatar-height: 70px;
 
 header{
+    .img-avatar{
+        height: @avatar-height;
+        width: @avatar-width;
+    }
     h1{
         letter-spacing: @letter-spacing-small;
+        margin-top: @padding-large-vertical !important;
 
         span{
             padding-top: @padding-base-vertical;
@@ -12,9 +19,14 @@ header{
             font-size: @font-size-h4;
             display: block;
         }
+
+        @media (max-width: @screen-xs-min) {
+            font-size: @font-size-h2;
+        }
     }
     hr{
         border-color: @fade-color-white;
     }
 
 }
+
