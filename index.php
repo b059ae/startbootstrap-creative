@@ -162,7 +162,7 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
                 <div class="row no-gutter">
                     <div class="col-lg-4 col-sm-6 wow fadeIn portfolio-block">
                         <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                            <img src="img/portfolio/cont.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">
@@ -181,7 +181,7 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeIn portfolio-block">
                         <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                            <img src="img/portfolio/landing.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">
@@ -200,7 +200,7 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeIn portfolio-block">
                         <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                            <img src="img/portfolio/donzip.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">
@@ -218,8 +218,8 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeIn portfolio-block">
-                        <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <a href="http://apopovbox.myjino.ru/gscrape/" target="blank" class="portfolio-box">
+                            <img src="img/portfolio/gscrape.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">
@@ -238,7 +238,7 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeIn portfolio-block">
                         <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                            <img src="img/portfolio/sc.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">
@@ -257,7 +257,7 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeIn portfolio-block">
                         <a href="#" class="portfolio-box">
-                            <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                            <img src="img/portfolio/autoter.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">
@@ -291,17 +291,61 @@ $title = 'Alexander Popov — Yii PHP Web Developer';
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Let's Get In Touch!</h2>
+                        <h2 class="section-heading">Let's work together!</h2>
                         <hr class="primary">
-                        <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                        <!--<p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
                     </div>
-                    <div class="col-lg-4 col-lg-offset-2 text-center">
-                        <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                        <p>123-456-6789</p>
+                    <div class="col-lg-1 col-lg-offset-4 text-center">
+                        <a href="https://github.com/b059ae" target="blank">
+                            <i class="fa fa-github fa-3x wow bounceIn"></i>
+                        </a>
+                        <!--<p>123-456-6789</p>-->
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <div class="col-lg-1 text-center">
+                        <i class="fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <!--<p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>-->
+                    </div>
+                    <div class="col-lg-1 text-center">
+                        <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".3s"></i>
+                    </div>
+                    <div class="col-lg-1 text-center">
+                        <i class="fa fa-skype fa-3x wow bounceIn" data-wow-delay=".4s"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <div class="space20">
+                        </div>
+                        <!-- BEGIN FORM-->
+                        <form action="javascript:;">
+                            <h3 class="form-section">Feedback</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, Ut wisi enim ad minim veniam, quis nostrud exerci. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat consectetuer
+                            </p>
+                            <div class="form-group">
+                                <div class="input-icon">
+                                    <i class="fa fa-check"></i>
+                                    <input type="text" placeholder="Subject" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-icon">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-icon">
+                                    <i class="fa fa-envelope"></i>
+                                    <input type="password" placeholder="Email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Feedback" rows="3=6" class="form-control"></textarea>
+                            </div>
+                            <button class="btn green" type="submit">Submit</button>
+                        </form>
+                        <!-- END FORM-->
                     </div>
                 </div>
             </div>
